@@ -1,0 +1,158 @@
+body {
+    background-image: url(/deepak.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0277bd;
+    color: white;
+    padding: 10px;
+  }
+
+ 
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  nav ul.active {
+    display: block;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+
+  #watch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #home {
+    background-color: #90caf9;
+    text-align: center;
+  }
+  
+  #home h1 {
+    margin-bottom: 20px;
+  }
+  
+  #home button {
+    background-color: #0277bd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #destinations {
+    text-align: center;
+  }
+  
+  #destinations h2 {
+    margin-bottom: 20px;
+  }
+  
+  #destination-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #destination-list li {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  #destination-list img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  
+  #about-us, #contact-us {
+    text-align: center;
+  }
+  
+  #about-us h2, #contact-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #0277bd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #social-icons a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  #social-icons a:hover {
+    color: #0077C8;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }
